@@ -65,3 +65,39 @@ alert (textomayus);*/
 
 
 //Ejercicio 10:	Create a function that checks if a word is a palindrome.
+/*let texto = prompt("Escribe el texto").toLowerCase().replace(/\s/g, '');//lovercase para que invisivilisar mayusculas el repace con las demas cosas sirve para eliminar los espacios
+
+let textoreverso = (s) => s.split("").reduce((rev, char) => char + rev, '');
+
+if (texto === textoreverso(texto)) {
+    alert("Es un palíndromo.");
+} else {
+    alert("No es un palíndromo.");
+}*/
+
+
+
+//Ejercicio 11: Write a function that finds the largest number in an array.
+/*
+let numeros = [];
+for (let i = 1; i <= 10; i++) {
+    let num = Number(prompt("Digita el número " + i + ":"));
+    numeros.push(num);
+}
+
+// Encontrar el número mayor
+let maximo = Math.max(...numeros);
+
+// Contar cuántas veces aparece el número máximo
+let repeticiones = numeros.filter(num => num === maximo).length;
+
+// Mostrar el resultado
+if (repeticiones > 1) {
+    alert("Hay dos o más números repetidos que son los mayores: " + maximo);
+} else {
+    alert("El número mayor es: " + maximo);
+}*/
+
+
+
+//Ejercicio 12: Implement a basic calculator using functions. 
